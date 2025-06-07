@@ -1,0 +1,85 @@
+h3{
+  padding-left: 0px;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: rgba(221, 68, 68, 1);
+  font-family: bold;
+  font-size: 25px;
+  animation: colors 2s infinite 1s;
+}
+@keyframes colors{
+  form{
+    color: #FF1C1C;
+  }
+  to{
+  color: #0084FF;  
+  }
+}
+body{
+  margin:opx;
+  display: flex;
+  background-color: hsla(0, 1%, 80%, 1);
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+#calculate{
+  justify-self: center;
+  font-family: Arial, sans-serif;
+  background-color: hsla(0, 0%, 17%, 1);
+  border-radius: 15px;
+  max-width: 500px;
+  overflow: hidden;
+  box-shadow: 0px 3px 15px rgba(192, 132, 19, 0.85);
+}
+input{
+  padding: 15px;
+  width: 250px;
+  text-align: right;
+  border:none;
+    background-color: hsla(0, 0%, 25%, 1);
+    font-size: 2rem;
+    color: white;
+  
+}
+button{
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: none;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: hsla(0, 1%, 32%, 1);
+
+}
+button:active{
+    background-color: hsla(0, 1%, 50%, 1);
+
+}
+#keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+  
+}
+.boat{
+  background-color: #D7833B;
+  font-size: 1.8rem;
+}
+.boat:active{
+    background-color: #6C4728;
+
+}
+.operater{
+    background-color: #D7833B;
+
+}
+.operater:active{
+   background-color: #6C4728;
+
+}
