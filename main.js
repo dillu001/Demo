@@ -1,7 +1,7 @@
 const display =document.getElementById('display');
 function calculate(input){
   display.value += input;
-  if (display.value === '1+'){
+  if (display.value === '1+,calculater()'){
     display.value = 'NEVER SETTLE';
     display.style.color ='red';
   }
