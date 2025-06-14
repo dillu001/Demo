@@ -17,7 +17,7 @@ function calculater() {
   } catch (error) {
      display.value ='error';
      display.style.color='red';
-     
+    
   }
 
 }
